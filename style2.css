@@ -1,0 +1,81 @@
+ul{
+text-decoration: none;
+}
+body{
+  margin: 100px 0 0 0;
+  text-align: left;
+}
+p{
+  padding: 20px 0 20px 0;
+}
+a{	
+text-decoration: none;
+color: green;
+list-style: none;
+}
+h1{
+	color: black;
+	font-size: 45px;
+}
+h2{
+	color: black;
+	font-size: 32px;
+}
+h3{
+	color: black;
+	font-size: 26px;
+}
+h4{
+	color: black;
+	font-size: 23px;
+}
+h5{
+	color: black;
+	font-size: 20px;
+}
+h6{
+	color: black;
+	font-size: 16px;
+}
+form{
+	color: black;
+}
+.btn:hover{
+	background-color: #50AAFF;
+}
+.btn:active{
+	background-color: #002FFF;
+}
+.req:hover{
+	color: #4F71E1;
+}
+.req:active{
+	color: #FF0F1F;
+}
+.ad1:hover{
+	color: #4F71E1;
+}
+.ad1:active{
+	color: #FF0F1F;
+}
+.menu{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.ad1{
+	margin-right: 30px;
+}
+.ad:hover{
+	color: #4F71E1;
+}
+.ad:active{
+	color: #FF0F1F;
+}
+.ended:hover{
+	background: #58E1DC;
+	color: #DDD8E1;
+}
+.idle:hover{
+	background: #77B7E1;
+}
