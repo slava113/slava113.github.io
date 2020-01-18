@@ -60,6 +60,20 @@
 				background: #7CADE1;
 				color: blue;
 			}
+			.kend{
+				background: none;
+				width: 100px;
+				height: 50px;
+				border-radius: 20%;
+				top: 50px;
+				right: -165px;
+				position: absolute;
+				color: red;
+			}
+			.dis{
+				background: #7CADE1;
+				color: red;
+			}
 		</style>
 	</head>
 	
@@ -96,6 +110,19 @@
 					        </option>
 					       </select>	
 	            		  </li>
+	            		 <li>
+	            		   <select class="kend" onchange="window.location.href=this.options[this.selectedIndex].value">
+					        <option disabled class="dis">
+					        			Launguage
+					        </option>
+					        <option value="red.html" selected="selected" class="dis">
+					        			Russia
+					        </option>
+					        <option value="red1.html" class="dis">
+					        			English
+					        </option>
+					       </select>
+	            		 </li>
             		  </ul>
             		</div>  
             	</header>

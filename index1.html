@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html style="font-family: Roboto, Arial, sans-serif;" lang="en-EN">
+	<head>
+		<meta charset="UTF-8"/>
+		<title> Programming </title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<link rel="icon" href="441.ico" type="images/x-icon">
+		<style>
+			body{background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-6D1q3iNyblfsbzYFPnyi90kj9eYHVZ29sCuwkzcJ687ZKvqoNg&s);
+			background-repeat: no-repeat;
+			background-size: 500% 500%;					
+			    }
+			.btn1{
+   				width: 50px;
+				height: 30px;
+				}
+			.btn{
+				font-size: 35px;
+				width: 250px;
+				height: 100px;
+				background: #78FFE9;
+				border-radius: 15%;
+				} 
+			.req{
+				 width: 250px;
+				 height: 25px;
+				 background: #BEFFE0;
+				}
+			.ad1{
+				color: green;
+			}
+			.ad{
+				color: green;
+			}
+			.title{
+				font-size: 50px;
+				padding-top: 10px;
+				text-align: center;
+			} 
+			.menu{
+				font-size: 20px;
+				list-style: none;
+				position: absolute;
+				top: 10px;
+				right: 175px;
+				text-align: center;
+			}
+			.idle{
+				background: none;
+				width: 180px;
+				height: 60px;
+				border-radius: 25%;
+				text-align: center;
+				top: -20px;
+				right: -165px;
+				color: green;
+				position: absolute;
+			}
+			.ended{
+				background: #7CADE1;
+				color: blue;
+			}
+			.kend{
+				background: none;
+				width: 100px;
+				height: 50px;
+				border-radius: 20%;
+				top: 50px;
+				right: -165px;
+				position: absolute;
+				color: red;
+			}
+			.dis{
+				background: #7CADE1;
+				color: red;
+			}
+		</style>
+	</head>
+	
+<body>
+	    	<div id="wrap">
+	    		<header id="hat">
+	            	<div class="title"><strong>Home</strong></div>
+	            	  <ul class="menu">
+		                <li class="eneee">
+		                	<a href="redact1.html" class="ad1">PROGRAMMING LANGUAGES</a>
+		                </li>
+		                <li>
+		                	<a href="red1.html" class="ad1">CODE EDITOR</a>
+		                </li>
+		                <li>
+		                	<a href="about1.html" class="ad1">ABOUT</a>
+		                </li>
+	            		<li>
+	            		  <select class="idle" onchange="window.location.href=this.options[this.selectedIndex].value">
+					        <option selected="selected" disabled class="ended">
+					        			Programming languages
+					        </option>
+					        <option value="http://htmlbook.ru/html" class="ended">
+					        			HTML
+					        </option>
+					        <option value="https://learn.javascript.ru/first-steps" class="ended">
+					        			JS
+					        </option>
+					        <option value="https://html5book.ru/css-css3" class="ended">
+					        			CSS
+					        </option>
+					        <option value="https://python.org" class="ended">
+					        		   Python
+					        </option>
+					       </select>	
+	            		</li>
+	            		<li>
+	            		   <select class="kend" onchange="window.location.href=this.options[this.selectedIndex].value">
+					        <option disabled class="dis">
+					        			Launguage
+					        </option>
+					        <option value="index.html" class="dis">
+					        			Russia
+					        </option>
+					        <option value="index1.html" selected="selected" class="dis">
+					        			English
+					        </option>
+					       </select>
+	            		</li>
+            		  </ul>
+            		</div>  
+            	</header>
+        	</div>
+			</br>
+			<h1><a href="https://developer.mozilla.org/ru/docs/HTML/HTML5" class="ad" target="_blank">HTML</a></h1>  <div><p>—Hypertext Markup Language”) is the most basic building block of the Web. It defines the content and structure of web content. Technologies other than HTML are commonly used to describe appearance / presentation (CSS) or functionality / behavior <a href="https://learn.javascript.ru/" class="ad" target="_blank">(JavaScript)</a> .Hypertext refers to links that connect web pages to each other, either within the same website or between websites. Links are a fundamental aspect of the web. By uploading content to the Internet and linking it to pages created by other people, you become an active member of the World Wide Web. HTML uses markup to display text, images, and other content in a web browser. HTML markup includes special "elements" such as head, title, body, header,footer, article> section, p, div, span, img, aside, audio, canvas, datalist, details, embed, nav, output, progress, video and many others. An HTML element is extracted from other text in the document using "tags", which consist of the element name surrounded by "<" and ">". The element name inside the tag is not case sensitive. That is, it can be written in upper or lower case, or mixed. For example, the title tag can be written as Title, TITLE, or in any other way
+			</p></div>
+		
+
+
+			<h1><a href="https://developer.mozilla.org/ru/docs/Web/CSS/Reference" class="ad" target="_blank">CSS</a></h1> <div class="layer3"> <p class="layer4">A style or CSS (Cascading Style Sheets, cascading style sheets) is a set of formatting options that is applied to elements of a document to change their appearance. The ability to work with styles has long been included in developed publishing systems and text editors, thereby allowing you to give the text a predefined, predefined look with the click of a button. Now it’s also available to the creators of the site, when the color, text size and other parameters stored in a specific place and easily "screwed" to any tag. Another advantage of styles is that they offer a lot more formatting options than regular <a href="https://developer.mozilla.org/ru/docs/HTML/HTML5" class="ad" target="_blank">HTML</a>
+
+			CSS is a powerful system that extends the design and layout of web pages.</p></div>
+
+			<h5>Want to get a free editor for all programming languages? Then fill out the forms below</h5>
+		    <form action="" method="POST" name="MyForm">
+			   <p>
+			     <input type="text" placeholder="Укажите свое им'я" required class="req" id="name">
+			   </p>
+			   <p>
+			      <input type="email" placeholder="Укажите свой - email" required class="req" id="email" >
+			   </p>	
+			     <p>		
+				     <h5><a href="rules.html" class="ad">Read our rules.</a></h5> <h5>Click on the checkmark if you agree to our rules.</h5>				
+			     </p>
+			     <p>
+				<input  type="checkbox" required class="btn1" id="sog">
+			     </p>	
+			       <button type="submit" id="button" class="btn">Send</button>   <button class="btn" type="reset">Clear</button>	
+		    </form>  
+	</body>
+</html>

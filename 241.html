@@ -64,6 +64,20 @@
 			.en{
 				color: green;
 			}
+			.kend{
+				background: none;
+				width: 100px;
+				height: 50px;
+				border-radius: 20%;
+				top: 50px;
+				right: -165px;
+				position: absolute;
+				color: red;
+			}
+			.dis{
+				background: #7CADE1;
+				color: red;
+			}
 	    </style>
 	</head>
 
@@ -102,6 +116,19 @@
 					        		   Python
 					        </option>
 					       </select>	
+	            		  </li>
+	            		  <li>
+	            		   <select class="kend" onchange="window.location.href=this.options[this.selectedIndex].value">
+					        <option disabled class="dis">
+					        			Launguage
+					        </option>
+					        <option value="241.html" selected="selected" class="dis">
+					        			Russia
+					        </option>
+					        <option value="rules.html" class="dis">
+					        			English
+					        </option>
+					       </select>
 	            		  </li>
             		  </ul>
             		</div>  
