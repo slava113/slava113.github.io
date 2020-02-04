@@ -1,27 +1,11 @@
 <!DOCTYPE html>
-<html style="font-family: Roboto, Arial, sans-serif;" lang="ru-RU">
-	<head>
-		<meta charset="UTF-8"/>
-		<title> Програмирование </title>
-		<link href="style.css" rel="stylesheet" type="text/css">
-		<link rel="icon" href="441.ico" type="images/x-icon">
-		  </script><script type="text/javascript">
-	       var a = 0;
-	        window.onload = asd ;
-	            function asd (){
-	                setInterval(e, 1);
-	                setInterval(f, 100);
-	            }
-	            function e () {
-	                document.body.style.backgroundImage = "linear-gradient(" + a + "deg , #f79d00 , #64f38c)"
-
-	            }
-	          
-	            function f(){
-			     a=a+1;
-			   };
-			setInterval(f, 100);
-			</script>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+	<title>Програмирование</title>
 		<style>
 			.btn1{
    				width: 50px;
@@ -45,109 +29,40 @@
 			.ad{
 				color: green;
 			}
-			.title{
-				font-size: 50px;
-				padding-top: 10px;
-				text-align: center;
-			} 
-			.menu{
-				font-size: 20px;
-				list-style: none;
-				position: absolute;
-				top: 10px;
-				right: 175px;
-				text-align: center;
-			}
-			.idle{
-				background: #E1D339;
-				width: 180px;
-				height: 60px;
-				border-radius: 25%;
-				text-align: center;
-				top: -20px;
-				right: -165px;
-				color: green;
-				position: absolute;
-			}
-			.ended{
-				background: #7CADE1;
-				color: blue;
-			}
-			.kend{
-				background: #E1D339;
-				width: 100px;
-				height: 50px;
-				border-radius: 20%;
-				top: 50px;
-				right: -165px;
-				position: absolute;
-				color: red;
-			}
-			.dis{
-				background: #7CADE1;
-				color: red;
-			}
-			html {
-			   height: 100%;
-			}
-			#body{
-			    background-size: 2000% 2000%;
-			    background-image: linear-gradient(0deg , #f79d00 , #64f38c);
-			    background-repeat: no-repeat;
-			}
 		</style>
 	</head>
 	
-<body id="body">
-	    	<div id="wrap">
-	    		<header id="hat">
-	            	<div class="title"><strong>Редакторы Кода</strong></div>
-	            	  <ul class="menu">
-	            	  	<li>
-		                	<a href="index.html" class="ad1">ГЛАВНАЯ</a>
-		                </li>
-		                <li class="eneee">
-		                	<a href="redact.html" class="ad1">ЯЗЫКИ ПРОГРАМИРОВАНИЯ</a>
-		                </li>
-		                <li>
-		                	<a href="about.html" class="ad1">О НАС</a>
-		                </li>
-	            		 <li>
-	            		  <select class="idle" onchange="window.location.href=this.options[this.selectedIndex].value">
-					        <option selected="selected" disabled class="ended">
-					        			Языки програмирования
-					        </option>
-					        <option value="http://htmlbook.ru/html" class="ended">
-					        			HTML
-					        </option>
-					        <option value="https://learn.javascript.ru/first-steps" class="ended">
-					        			JS
-					        </option>
-					        <option value="https://html5book.ru/css-css3" class="ended">
-					        			CSS
-					        </option>
-					        <option value="https://python.org" class="ended">
-					        		   Python
-					        </option>
-					       </select>	
-	            		  </li>
-	            		 <li>
-	            		   <select class="kend" onchange="window.location.href=this.options[this.selectedIndex].value">
-					        <option disabled class="dis">
-					        			Languages
-					        </option>
-					        <option value="red.html" selected="selected" class="dis">
-					        			Russia
-					        </option>
-					        <option value="red1.html" class="dis">
-					        			English
-					        </option>
-					       </select>
-	            		 </li>
-            		  </ul>
-            		</div>  
-            	</header>
-        	</div>
+<body>
+			<nav class="dws-menu">
+		<ul>
+			<li><a href="index.html"><i class="fa fa-home"></i>Главная</a></li>
+			<li><a href="#"><i class="fa fa-code"></i>Языки програмирования</a>
+					<ul>
+					<li><a href="https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML">HTML</a>
+							</li>
+					<li><a href="http://htmlbook.ru/samcss">CSS</a>
+							</li>
+					<li><a href="https://learn.javascript.ru/">JavaScript</a>
+							</li>
+					<li><a href="https://www.coursera.org/learn/python-osnovy-programmirovaniya">Python</a>
+							</li>
+					<li><a href="https://metanit.com/swift/tutorial/">Swift</a>		
+							</li>
+					<li><a href="https://tproger.ru/translations/golang-basics/">Golang</a>
+							</li>
+					<li><a href="https://ravesli.com/uroki-cpp/">C++</a>
+							</li>		
+					<li><a href="https://docs.microsoft.com/ru-ru/dotnet/csharp/tour-of-csharp/">C#</a>
+							</li>		
+						</ul>
+					</li>
+					<li><a href="red.html"><i class="fa fa-database"></i>Редакторы Кода</a></li>
+					<li><a href="https://tproger.ru/"><i class="fa fa-th-list"></i>Новости</a></li>
+					<li><a href="#"><i class="fa fa-envelope-open"></i>Контакты</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav></br>
         	<h2>1. Visual Studio Code</h2>
         	<img src="https://techrocks.ru/wp-content/uploads/2018/08/code-editors-vscode.jpg"></br>
         	<h5>Visual Studio Code это бесплатный кросс-платформенный редактор кода, разработанный Microsoft. Программа имеет открытый исходный код. Исходя из опроса, проведенного Stack Overflow в 2017 году, это один из самых популярных редакторов кода, которым пользуются больше 24% разработчиков.
