@@ -1,3 +1,10 @@
+img{
+	max-width: 500px;
+	max-height: 500px;
+	min-width: 300px;
+	min-height: 300px;
+	margin-right: 40px;
+}
 .req{
 	width: 250px;
 	height: 25px;
