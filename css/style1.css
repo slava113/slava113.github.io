@@ -79,7 +79,7 @@ body{
  text-align: center;
 }
 header{
- margin-top: 300px;
+ margin-top: 10px;
  font-family: Cuprum, Arial, Helvetica, sans-serif;
 }
 .dws-menu *{
@@ -142,7 +142,7 @@ header{
 /*sub menu*/
 .dws-menu li ul{
  position: absolute;
- min-width: 390px;
+ min-width: 200px;
  display: none;
 }
 .dws-menu li > ul li{
